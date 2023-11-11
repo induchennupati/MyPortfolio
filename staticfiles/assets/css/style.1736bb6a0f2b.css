@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #E9C46A;
   color: #fff;
   position: relative;
   background: transparent;
@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.8f384db543d6.jpg") top right no-repeat;
+  background: #000000 top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -58,7 +58,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: ease-in-out 0.3s;
+   /* transition: ease-in-out 0.3s;  */
   position: relative;
   height: 100vh;
   display: flex;
@@ -66,10 +66,10 @@ h6 {
   z-index: 997;
   overflow-y: auto;
 }
-
-#header * {
-  transition: ease-in-out 0.3s;
-}
+/* 
+ #header * {
+   transition: ease-in-out 0.3s; 
+}  */
 
 #header h1 {
   font-size: 48px;
@@ -360,7 +360,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: #333333;
   padding: 30px;
 }
 
